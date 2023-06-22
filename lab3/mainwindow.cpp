@@ -2,10 +2,8 @@
 #include "ui_mainwindow.h"
 #include "mainwindow.h"
 
-Window::Window(QWidget *parent)
+Window::Window(QWidget*)
 {
-    Q_UNUSED(parent);
-
     setWindowTitle("Charts");
     this->setGeometry(0, 0, 1500, 800);
 

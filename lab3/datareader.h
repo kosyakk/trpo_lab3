@@ -11,7 +11,7 @@ class IDataReader
 {
 public:
     virtual ~IDataReader() {}
-    virtual QVariant getData(const QFileInfo fileInfo) = 0;
+    virtual QVariant getData(const QFileInfo ) = 0;
 };
 
 class JsonDataReader : public IDataReader
@@ -27,9 +27,7 @@ class NullReader : public IDataReader
 {
 public:
     NullReader() {}
-    QVariant getData(const QFileInfo fileInfo) override;
-//private:
-  //  QVariant m_data;
+    QVariant getData(const QFileInfo ) override;
 };
 
 #endif // DATAREADER_H

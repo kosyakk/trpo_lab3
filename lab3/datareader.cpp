@@ -53,9 +53,8 @@ QVariant JsonDataReader::getData(const QFileInfo fileInfo)
     return m_data;
 }
 
-QVariant NullReader::getData(const QFileInfo fileInfo)
+QVariant NullReader::getData(const QFileInfo )
 {
-    Q_UNUSED(fileInfo);
     return QVariant::fromValue(QMap<QString, QVariant>());
 }
 

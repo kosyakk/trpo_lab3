@@ -1,9 +1,7 @@
 #include "chartsview.h"
 
-ChartsView::ChartsView(QWidget *parent)
+ChartsView::ChartsView(QWidget*)
 {
-    Q_UNUSED(parent);
-
     m_chartLayout = new QVBoxLayout(this);
 
     m_chartView = new QtCharts::QChartView();

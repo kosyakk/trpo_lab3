@@ -32,7 +32,7 @@ signals:
     void signUpdateFileType(QFileInfo fileInfo, int maxSize = 1000000);
 
 private:
-    Window(QWidget* parent = 0);
+    Window(QWidget* parent = nullptr);
 
     Buttons* m_buttons;
     FilesView* m_filesView;
