@@ -1,5 +1,5 @@
-#ifndef REGISTRFACTORY_H
-#define REGISTRFACTORY_H
+#ifndef REGISTR_H
+#define REGISTR_H
 
 #include <QObject>
 #include <memory>
@@ -21,4 +21,4 @@ signals:
     void signChangeChartData(const QMap<QString, QVariant> &data);
 };
 
-#endif // REGISTRFACTORY_H
+#endif // REGISTR_H

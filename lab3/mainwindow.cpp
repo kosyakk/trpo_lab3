@@ -36,7 +36,7 @@ Window::Window(QWidget *parent)
 
     connect(m_registr, &Registr::signChangeChartData, m_chartsView, &ChartsView::slSetData);
 
-    connect(m_filesView->selectionModel, &QItemSelectionModel::currentChanged, this, &Window::slCurrentFileChanged);
+    connect(m_filesView->m_selectionModel, &QItemSelectionModel::currentChanged, this, &Window::slCurrentFileChanged);
 
     connect(m_buttons->m_openFolder, &QPushButton::clicked, this, &Window::slChooseFolder);
     connect(m_buttons->m_print, &QPushButton::clicked, m_chartsView, &ChartsView::slPrint);

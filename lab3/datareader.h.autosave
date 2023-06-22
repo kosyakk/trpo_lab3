@@ -28,8 +28,6 @@ class NullReader : public IDataReader
 public:
     NullReader() {}
     QVariant getData(const QFileInfo fileInfo) override;
-//private:
-  //  QVariant m_data;
 };
 
 #endif // DATAREADER_H

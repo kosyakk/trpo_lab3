@@ -14,7 +14,7 @@ public:
     FilesView(QWidget *parent);
     ~FilesView() {}
 
-    QItemSelectionModel *selectionModel;
+    QItemSelectionModel *m_selectionModel;
 
 public slots:
     void slOnSelectionChange(QString folderPath);

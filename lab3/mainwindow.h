@@ -6,7 +6,7 @@
 #include "filesview.h"
 #include "buttons.h"
 #include "chartsview.h"
-#include "registrfactory.h"
+#include "registr.h"
 
 class Window : public QWidget
 {

@@ -1,4 +1,4 @@
-#include "registrfactory.h"
+#include "registr.h"
 #include "ioccontainer.h"
 
 Registr::Registr()

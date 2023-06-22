@@ -21,7 +21,7 @@ FilesView::FilesView(QWidget *parent) : QWidget(parent) {
 
     vLayout->addWidget(m_tableView);
 
-    selectionModel = m_tableView->selectionModel();
+    m_selectionModel = m_tableView->selectionModel();
 
     m_tableView->setRootIndex(m_model->setRootPath(homePath));
 }

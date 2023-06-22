@@ -26,20 +26,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    registrfactory.cpp \
     buttons.cpp \
     datareader.cpp \
     chartsview.cpp \
-    filesview.cpp
+    filesview.cpp \
+    registr.cpp
 
 HEADERS += \
         mainwindow.h \
-    registrfactory.h \
     ioccontainer.h \
     buttons.h \
     datareader.h \
     chartsview.h \
-    filesview.h
+    filesview.h \
+    registr.h
 
 FORMS += \
         mainwindow.ui
