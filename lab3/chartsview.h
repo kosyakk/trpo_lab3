@@ -14,7 +14,7 @@
 class Chart
 {
 public:
-    Chart() {}
+    //Chart() {}
     virtual ~Chart() = default;
 
     virtual QtCharts::QAbstractSeries* getSeries(const QMap<QString, QVariant>& data) = 0;
