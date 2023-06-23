@@ -26,7 +26,6 @@ public slots:
 signals:
     void signFolderChange(QString path);
     void signUpdateChart();
-    void signShowPlaceholder(QString str);
     void signUpdateChartData(const QMap<QString, QVariant>& newData);
     void signUpdateChartType(Chart *type);
     void signUpdateFileType(QFileInfo fileInfo, int maxSize = 1000000);

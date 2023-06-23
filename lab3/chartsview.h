@@ -23,7 +23,6 @@ public:
 class PieChart : public Chart
 {
 public:
-    //PieChart() {}
     ~PieChart() { delete m_series; }
 
     QtCharts::QAbstractSeries* getSeries(const QMap<QString, QVariant>& data) override;
@@ -33,7 +32,6 @@ public:
 class BarChart : public Chart
 {
 public:
-    //BarChart() {}
     ~BarChart() { delete m_series; }
 
     QtCharts::QAbstractSeries* getSeries(const QMap<QString, QVariant>& data) override;
