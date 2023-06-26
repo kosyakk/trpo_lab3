@@ -28,7 +28,5 @@ FilesView::FilesView(QWidget *parent) : QWidget(parent) {
 
 void FilesView::slOnSelectionChange(QString path)
 {
-    QString filePath = path;
-
-    m_tableView->setRootIndex(m_model->setRootPath(filePath));
+    m_tableView->setRootIndex(m_model->setRootPath(path));
 }
