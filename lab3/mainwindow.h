@@ -20,7 +20,7 @@ public:
 
 public slots:
     void slChooseFolder();
-    void slCurrentFileChanged(QModelIndex index);
+    void slCurrentFileChanged(QModelIndex index);  //QMI - инд модели данных(содержит ном стр и столб, указ на род инд)
     void slTypeChanged(QString type);
 
 signals:

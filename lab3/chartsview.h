@@ -52,9 +52,9 @@ public slots:
     void slSetData(const QMap<QString, QVariant>& data);
 
 private:
-    QtCharts::QChartView *m_chartView;
-    QVBoxLayout *m_chartLayout;
-    QtCharts::QChart *m_chart;
+    QtCharts::QChartView *m_chartView;        //виджет для отображения графиков
+    QVBoxLayout *m_chartLayout;               //вертикальный менеджер компоновки
+    QtCharts::QChart *m_chart;                //класс для управления графическим представлением серий, осей...
     Chart *m_chartType;
     QMap<QString, QVariant> m_currentData;
 };

@@ -103,7 +103,8 @@ QtCharts::QAbstractSeries *PieChart::getSeries(const QMap<QString, QVariant>& da
     return m_series;
 }
 
-QtCharts::QAbstractSeries *BarChart::getSeries(const QMap<QString, QVariant>& data) {
+QtCharts::QAbstractSeries *BarChart::getSeries(const QMap<QString, QVariant>& data)
+{
     m_series = new QtCharts::QStackedBarSeries();
     QMapIterator<QString, QVariant> i(data);
     QtCharts::QBarSet *set = new QtCharts::QBarSet("");

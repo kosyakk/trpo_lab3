@@ -20,8 +20,8 @@ public slots:
     void slOnSelectionChange(QString folderPath);
 
 private:
-    QFileSystemModel* m_model;
-    QTableView* m_tableView;
+    QFileSystemModel* m_model;      //модель файловой системы
+    QTableView* m_tableView;        //виджет таблицы
     QVBoxLayout* m_vLayout;
 };
 
